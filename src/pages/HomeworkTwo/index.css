@@ -1,0 +1,122 @@
+.container_Copy {
+    width: 600px;
+    margin: 60px auto;
+}
+
+.formTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px;
+
+    h2 {
+        font-size: 28px;
+        letter-spacing: 1px;
+        color: blue;
+    }
+
+    label {
+        font-size: 22px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    input {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        font-size: 18px;
+        margin-top: 6px;
+    }
+
+    .btnTwo {
+        width: 100%;
+        height: 35px;
+        font-size: 22px;
+        background-color: blue;
+        color: #fff;
+        letter-spacing: 1px;
+        border-radius: 8px;
+        border: none;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    max-width: 0 auto;
+
+    h3 {
+        font-size: 28px;
+        text-align: center;
+        color: blue;
+    }
+
+    ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        li {
+            list-style: none;
+            font-size: 25px;
+            font-weight: 500;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 25px;
+
+            .copy {
+                border: none;
+                outline: none;
+                border-radius: 8px;
+                padding: 10px;
+                font-size: 16px;
+                color: #fff;
+                background-color: blue;
+            }
+        }
+    }
+
+    p {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+}
+
+.paste {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-top: 20px;
+    margin-left: 25px;
+
+    h3 {
+        font-size: 28px;
+        text-align: center;
+        color: blue;
+    }
+
+    input {
+        width: 100%;
+        outline: none;
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 18px;
+    }
+}

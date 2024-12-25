@@ -1,0 +1,87 @@
+.container_Drop {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+
+    label {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    input {
+        width: 80%;
+        height: 38px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+
+    .btn {
+        width: 80%;
+        margin-top: 10px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        height: 38px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        background-color: blue;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+.taskChange {
+    width: 500px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .task {
+        display: flex;
+        gap: 10px;
+        cursor: grab;
+
+        h2 {
+            width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-radius: 8px;
+            background-color: blue;
+            color: #fff;
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+
+
+            .delete {
+                cursor: pointer;
+
+                img {
+                    width: 35px;
+                    height: 35px;
+                    background: none;
+                    border: none;
+                }
+            }
+        }
+    }
+
+    .no-tasks {
+        text-align: center;
+        font-size: 22px;
+    }
+}
